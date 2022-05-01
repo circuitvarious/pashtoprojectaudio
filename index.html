@@ -1,0 +1,176 @@
+<html lang="en">
+    <head>
+        <title>Welcome World</title>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href = "style.css" rel="stylesheet"></link>
+    </head>
+    <header>
+            <img src="logo.png" class="logoimg"></img>
+            <div class="headermargin">
+            <h1>Welcome <span>World</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#c-s-e">Conversation Starters/Enders</a></li>
+                    <li><a href="#commands">Actions</a></li>
+                    <li><a href="#needs">Needs</a></li>
+                    <li><a href="#conversations">Converstaions</a></li>
+                    <li><a href="#colors">Colors</a></li>
+                    <li><a href="#groups">Groups</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <center>
+            <br><br><br><br><br>
+            <bio id="c-s-e">
+                <h2 id="c-s-e">Conversation Starters/Enders</h2>
+                <br>
+            </bio>
+
+                <img src="hello.png" class="img">
+                <br> <br>
+                <button class = "btn btn-info" onclick = "hello.play()">Hello</button>
+                <br>
+                <br>
+                <img src="bye.png" class="img">
+                <br><br>
+                <button class="btn btn-info" onclick="bye.play()">Bye</button>
+                <hr>
+
+            <bio id = "commands">
+                <h2 id = "commands">Actions</h2>
+            </bio>
+
+                <br>
+                <img src="sit.png" onclick="sit.play()">
+                <br><br>
+                <img src="standup.png" onclick="standup.play()">
+                <br><br>
+                <img src="lineup.png" onclick="lineup.play()">
+                <br><br>
+                <img src="walk.png" onclick="walk.play()">
+                <br><br>
+                <img src="raisehand.png" onclick="raisehand.play()">
+                <br><br>
+                <img src="look.png" onclick="look.play()">
+                <br><br>
+                <img src="getonschoolbus.png" onclick="getonschoolbus.play()">
+                <br><br>
+                <img src="listen.png" onclick="listen.play()">
+                <hr>
+            <bio id="needs">
+                <h2 id="needs">Needs</h2>
+            </bio>
+                <br>
+                <img src="bathroom.png" onclick="bathroom.play()">
+                <br><br>
+                <img src="book.png" onclick="book.play()">
+                <br><br>
+                <img src="carpet.png" onclick="carpet.play()">
+                <br><br>
+                <img src="cleanup.png" onclick="cleanup.play()">
+                <br><br>
+                <img src="drink.png" onclick="drink.play()">
+                <br><br>
+                <img src="eat.png" onclick="eat.play()">
+                <br><br>
+                <img src="iwantmorehelp.png" onclick="ineedhelp.play()">
+                <br><br>
+                <hr>
+
+            <bio id="conversations">
+                <h2 id="conversations">Conversations<h2>
+            </bio>
+
+                <br>
+                <img src="howareyoufeeling.png" onclick="howareyoufeeling.play()">
+                <hr>
+
+            <bio id="colors">
+                <h2 id="colors">Colors</h2>
+            </bio>
+
+                <div id="red" onclick="red.play();"></div>
+                <p>Red<p>
+                <hr>
+                <div id="orange" onclick="Orange.play();"></div>
+                <p>Orange<p>
+                <hr>
+                <div id="yellow" onclick="Yellow.play();"></div>
+                <p>Yellow<p>
+                <hr>
+                <div id="green" onclick="Green.play();"></div>
+                <p>Green<p>
+                <hr>
+                <div id="blue" onclick="blue.play();"></div>
+                <p>Blue<p>
+                <hr>
+                <div id="purple" onclick="purple.play();"></div>
+                <p>Purple<p>
+                <hr>
+                <div id="pink" onclick="pink.play();"></div>
+                <p>Pink<p>
+                <hr>
+
+                <bio id="groups">
+                    <h2 id="groups">Groups/Places</h2>
+                </bio>
+
+                <img src="readinggroups.png" onclick="readinggroups.play()">
+                <br><br>
+                <img src="tablegroup.png" onclick="tablegroups.play()">
+                <br><br>
+                <img src="specials.png" onclick="specials.play()">
+                <br><br>
+                <img src="recess.png" onclick="reccess.play()">
+                <br><br>
+                <img src="science.png" onclick="science.play()">
+                <br><br>
+                <img src="math.png" onclick="math.play()">
+                <br><br>
+                <img src="writing.png" onclick="writing.play()">
+                <hr>
+                <bio id="About">
+                    <h2 id="About">About</h2>
+                </bio>
+
+                <img src="logo.png" class="logo" style="width: 399;">
+                <br><br>
+                <p>We are a group of 5th graders working on an Advanced Level Product and Performance project. We decided to create a website with resources for English Learners arriving at Berkman Elementary due to the high number of students attending our campus who have limited English vocabulary. This year we had about 25 students from Afghanistan. Most of them knew little to none English so they struggled adjusting, mostly because of the communication challenges.  We are hoping to have this website available for any students and guardians whose first language is not English.  In order to be in alignment with the vocabulary used in the classrooms, we decided to just include only those cards used by teachers.</p>
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4xlRB7tWSeoB8SRdyIJXf0EGuYODuUbYvDuBKLcaTqsZHsfeykLKdMM3As3Tbsx6R56L_NuDxy4fo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="671" height="331" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                <br>
+                <br>
+                <hr>
+                <h3>Credits</h3>
+                <p>
+                    Alyiah for the artistic contribution 
+                </p>
+
+                <p>                 
+                    Aneesh creating the coding of The Welcome World Project website
+                </p>
+
+                <p>
+                    Eli for creating the logo
+                </p>
+
+                <p>
+                    Harper for being the Project Manager
+                </p>
+                <p>
+                    Jennifer Moy and Jami Johnson for providing images
+                </p>
+                <p>
+                    April Nilson and Charlotte Young for the interviews
+                </p>
+
+                <p>Suyin Yau for facilitating this project</p>
+        </center>
+        <script src = "main.js"></script>
+    </body>
+</html>
